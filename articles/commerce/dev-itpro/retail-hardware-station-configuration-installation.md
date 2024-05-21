@@ -153,7 +153,7 @@ Current security standards state that the following options should be set in a p
     > 1. Press the Windows logo key+R to open a **Run** window.
     > 2. In the **Open** field, type **Regedit**, and then select **OK**.
     > 3. If a **User Account Control** window appears, select **Yes**.
-    > 4. In the new **Registry Editor** window, go to **HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\SecurityProviders\\SCHANNEL\\Protocols**. The following keys have been automatically entered to allow for TLS 1.2 only:
+    > 4. In the new **Registry Editor** window, go to **HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols**. The following keys have been automatically entered to allow for TLS 1.2 only:
     >
     >    - TLS 1.2\\Server:Enabled=1
     >    - TLS 1.2\\Server:DisabledByDefault=0
